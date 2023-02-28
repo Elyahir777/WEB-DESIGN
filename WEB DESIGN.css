@@ -1,0 +1,124 @@
+
+body {
+  background-image: linear-gradient(lightblue, darkblue);
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container
+{   background: linear-gradient(360deg, #ddf6b8 30%,#1d7d8e 70%);
+  width: 70%;
+  height: 500px;
+  border-radius: 6%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.estructura{
+
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: 100%;
+
+}
+.imagen{
+  width: 100%;
+
+}
+.iz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.right{
+  background-color: rgba(15, 15, 15, 0.356);
+  border-radius: 20% 5% 5% 20%;
+}
+
+.right{
+  text-align: center;
+}
+h1,h2{
+  color: white;
+  text-shadow: #000000;
+}
+.right::first-letter{
+  color: darkred;
+}
+.iz::first-letter{
+  color: darkred;
+}
+
+.acceso{
+  width: 105px;
+  height: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: green;
+  border-radius: 70px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+.acceder:hover{
+  background-color: rgb(16, 66, 16);
+}
+
+.right .fomulario{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+.right .grupos{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+
+}
+
+.grupos{
+  color: white;
+}
+
+
+
+.grupos input{
+  width: 240px;
+  height: 20px;
+  border-radius: 70px;
+  border: none;
+  outline: none;
+}
+.grupos select{
+  width: 240px;
+  height: 20px;
+  border-radius: 70px;
+  border: none;
+  outline: none}
+.grupos textarea{
+  width: 240px;
+  height: 20px;
+  border: 70px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+.group .guarda{
+  width: 105px;
+  height: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border-radius: 70px;
+  margin-top: 15px;
+  background-color: green;
+}
+.guarda:hover{
+  background-color: rgb(16, 66, 16);
+}
+
+
